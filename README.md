@@ -12,6 +12,14 @@ Bem-vindo a **Jornada de Dados**
 
 Este projeto realiza o monitoramento de preços de produtos em sites de e-commerce. Utilizando técnicas de web scraping, o projeto coleta preços e envia notificações no Telegram quando o valor atinge um limite específico definido pelo usuário. A aplicação é modular, dividida em partes para facilitar o desenvolvimento e a manutenção.
 
+## Esse projeto faz parte do workshop de Web Scraping
+
+Assista ao vídeo completo aqui
+
+[![Imagem](./pics/1731445656096.jfif)](https://youtube.com/live/z1EOlFV8g7g)
+
+## Arquitetura
+
 ```mermaid
 sequenceDiagram
     participant User as Usuário
@@ -112,8 +120,8 @@ Esse módulo utiliza a biblioteca `python-telegram-bot` para enviar uma mensagem
 
 1. **Clone o Repositório**:
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
-   cd seu-repositorio
+   git clone https://github.com/lvgalvao/IphoneProjectWebScraping
+   cd IphoneProjectWebScraping
    ```
 
 2. **Instale as Dependências**:
@@ -126,10 +134,17 @@ Esse módulo utiliza a biblioteca `python-telegram-bot` para enviar uma mensagem
 
 4. **Execute o Script**:
    ```bash
-   python monitoramento_preco.py
+   python app_8_postgres.py
    ```
 
 O projeto agora iniciará o monitoramento do preço de produtos, verificando em intervalos regulares e notificando o usuário via Telegram caso o preço atinja o valor desejado.
+
+Caso queira fazer um teste local
+
+5. **Execute o Script 6 para um teste local**:
+   ```bash
+   python app_6.py
+   ```
 
 ## Migrando para Postgres
 
